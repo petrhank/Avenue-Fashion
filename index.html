@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<!-- info -->
+    <meta charset="utf-8">
+    <meta name="description" content="popis webu">
+    <meta name="author" content="Petr Hank">
+    <title>Avenue Fashion</title>
+<!--  -->
+    <meta name="google" content="notranslate"> <!-- Vypíná nabídku překladu v Google Chrome -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+<!-- style -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+</head>
+<body>
+    <header class="main-header">
+        <button class="navbar-toggle">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar">
+            <nav class="upper-nav">
+                    <div class="currency-wrapper">
+                        <label for="currency">Currency : </label>
+                        <select name="currency" id="currency">
+                            <option value="GBP">GBP</option>
+                            <option value="CZK">CZK</option>
+                        </select>
+                    </div>
+                    <div class="customer-part">
+                        <a href="#">Register</a>
+                        <a href="#">Sign In</a>
+                    </div>
+                    <div class="dropdown-toggle cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <a href="#">Empty</a>
+                        <div class="dropdown">
+                            <button href="#" class="return-toggle">
+                                <i class="fas fa-chevron-left"></i> back
+                            </button>
+                            <p>Your cart is empty</p>
+                        </div>
+                    </div>
+            </nav>
+            <nav class="main-nav">
+                    <div class="logo">
+                        <a href="index.html">
+                            <h1>
+                                <span class="bold">Avenue</span> Fashion
+                            </h1>
+                        </a>
+                    </div>
+                    <ul class="nav-list">
+                        <li class="dropdown-toggle nav-item">
+                            <a href="#">Mens</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="dropdown">
+                                <button href="#" class="return-toggle">
+                                    <i class="fas fa-chevron-left"></i> back
+                                </button>
+                                <div class="dropdown-category-title">Casuals</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Polo Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Sportswear</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers & Chinos</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-category-title">Formal</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Suits</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers</a>
+                                    </li>
+                                </ul>
+                                <div class="sale">
+                                    <p class="bold">Autumn sale!</p>
+                                    <p>Up to 50% off</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown-toggle nav-item">
+                            <a href="#">Womens</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="dropdown">
+                                <button href="#" class="return-toggle">
+                                    <i class="fas fa-chevron-left"></i> back
+                                </button>
+                                <div class="dropdown-category-title">Casuals</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Polo Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Sportswear</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers & Chinos</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-category-title">Formal</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Suits</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers</a>
+                                    </li>
+                                </ul>
+                                <div class="sale">
+                                    <p class="bold">Autumn sale!</p>
+                                    <p>Up to 50% off</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown-toggle nav-item">
+                            <a href="#">The brand</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="dropdown">
+                                <button href="#" class="return-toggle">
+                                    <i class="fas fa-chevron-left"></i> back
+                                </button>
+                                <div class="dropdown-category-title">Casuals</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Polo Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Sportswear</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers & Chinos</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-category-title">Formal</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Suits</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers</a>
+                                    </li>
+                                </ul>
+                                <div class="sale">
+                                    <p class="bold">Autumn sale!</p>
+                                    <p>Up to 50% off</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown-toggle nav-item">
+                            <a href="#">Local stores</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="dropdown">
+                                <button href="#" class="return-toggle">
+                                    <i class="fas fa-chevron-left"></i> back
+                                </button>
+                                <div class="dropdown-category-title">Casuals</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Polo Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Sportswear</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers & Chinos</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-category-title">Formal</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Suits</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers</a>
+                                    </li>
+                                </ul>
+                                <div class="sale">
+                                    <p class="bold">Autumn sale!</p>
+                                    <p>Up to 50% off</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown-toggle nav-item">
+                            <a href="#">Look book</a>
+                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-chevron-right"></i>
+                            <div class="dropdown">
+                                <button href="#" class="return-toggle">
+                                    <i class="fas fa-chevron-left"></i> back
+                                </button>
+                                <div class="dropdown-category-title">Casuals</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Hoodies & Sweatshirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Polo Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Sportswear</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers & Chinos</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">T-Shirts</a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown-category-title">Formal</div>
+                                <ul class="dropdown-category">
+                                    <li class="dropdown-item">
+                                        <a href="#">Jackets</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Shirts</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Suits</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Trousers</a>
+                                    </li>
+                                </ul>
+                                <div class="sale">
+                                    <p class="bold">Autumn sale!</p>
+                                    <p>Up to 50% off</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="search">
+                        <input type="text" placeholder="Search..">
+                        <button type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+               
+            </nav>
+        </div>
+        <div class="welcome-img"></div>
+        <div class="welcome-logo">
+            <div class="ave">A</div>
+            <div class="ave">V</div>
+            <div class="ave">E</div>
+        </div>
+        <a href="#" class="welcome-button">Shop men's collection</a>
+    </header>
+    <main class="main-section">
+        <hr class="horizontal-line">
+        <section class="shop">
+            <div class="shop-categories">
+                <ul class="shop-categories-list">
+                    <li>
+                        <a href="#">
+                            <h2>
+                                Popular
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                New arrivals
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                Best sellers
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                Special offers
+                            </h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <h2>
+                                Coming soon
+                            </h2>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <article class="shop-item">
+                <div class="price">&#163;89.99</div>
+                <img src="./img/photo 6.png" alt="Men's T-Shirt - black">
+                <div class="shop-item-desc">
+                    <h3>Item name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                    <div class="shop-item-buttons">
+                        <button class="shop-item-button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="fas fa-compress-alt"></i>    
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="shop-item">
+                <div class="price">&#163;47.50</div>
+                <img src="./img/photo 5.png" alt="Women's T-Shirt - white, Marilyn Monroe">
+                <div class="shop-item-desc">
+                    <h3>Item name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                    <div class="shop-item-buttons">
+                        <button class="shop-item-button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="fas fa-compress-alt"></i>    
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="shop-item">
+                <div class="price"><s>&#163;107</s> &#163;89.99</div>
+                <img src="./img/photo 4.png" alt="Men's Sweatshirt - black">
+                <div class="shop-item-desc">
+                    <h3>Item name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                    <div class="shop-item-buttons">
+                        <button class="shop-item-button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="fas fa-compress-alt"></i>    
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="shop-item">
+                <div class="price">&#163;69.95</div>
+                <img src="./img/photo 3.png" alt="Men's T-Shirt - blue">
+                <div class="shop-item-desc">
+                    <h3>Item name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                    <div class="shop-item-buttons">
+                        <button class="shop-item-button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="fas fa-compress-alt"></i>    
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="shop-item">
+                <div class="price">&#163;29.95</div>
+                <img src="./img/photo 2.png" alt="Women's T-Shirt - red">
+                <div class="shop-item-desc">
+                    <h3>Item name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                    <div class="shop-item-buttons">
+                        <button class="shop-item-button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="fas fa-compress-alt"></i>    
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <article class="shop-item">
+                <div class="price">&#163;34.79</div>
+                <img src="./img/photo.png" alt="Women's T-Shirt - black">
+                <div class="shop-item-desc">
+                    <h3>Item name</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, cupiditate!</p>
+                    <div class="shop-item-buttons">
+                        <button class="shop-item-button">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <button class="shop-item-button">
+                            <i class="fas fa-compress-alt"></i>    
+                        </button>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <hr class="horizontal-line">
+        <section class="lookbooks">
+            <div class="lookbook">
+                <img src="./img/REPLACE.png" alt="Man">
+                <div class="lookbook-desc">
+                    <h3><span class="bold">Men's</span><br>
+                        lookbook</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ullam exercitationem excepturi a natus minus!</p>
+                    <a href="#" class="lookbook-btn">Button</a>
+                </div>
+            </div>
+            <div class="lookbook">
+                <img src="./img/REPLACE copy.png" alt="Woman">
+                <div class="lookbook-desc">
+                    <h3><span class="bold">Women's</span><br>
+                        lookbook</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ullam exercitationem excepturi a natus minus!</p>
+                    <a href="#" class="lookbook-btn">Button</a>
+                </div>
+            </div>
+            <div class="lookbook">
+                <img src="./img/photo silhouette.png" alt="Silhouette">
+                <div class="lookbook-desc">
+                    <h3><span class="bold">Your</span><br>
+                        lookbook</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ullam exercitationem excepturi a natus minus!</p>
+                    <a href="#" class="lookbook-btn">Button</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer-section">
+            <div class="footer-categories">
+                <div class="footer-category">
+                    <h4>Information</h4>
+                    <ul class="footer-item-list">
+                        <li class="footer-item">
+                            <a href="#">The brand</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Local stores</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Customer service</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Privacy & cookies</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Site map</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-category">
+                    <h4>Why buy from us</h4>
+                    <ul class="footer-item-list">
+                        <li class="footer-item">
+                            <a href="#">Shipping & returns</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Secure shopping</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Testimonials</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Award winning</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Ethical trading</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-category">
+                    <h4>Your account</h4>
+                    <ul class="footer-item-list">
+                        <li class="footer-item">
+                            <a href="#">Sign in</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Register</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">View cart</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">View your lookbook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Track an order</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Update information</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-category">
+                    <h4>Lookbook</h4>
+                    <ul class="footer-item-list">
+                        <li class="footer-item">
+                            <a href="#">Latest posts</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Men's lookbook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Women's lookbook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Lookbooks RSS feed</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">View your lookbook</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="#">Delete your lookbook</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-category">
+                    <h4>Contact details</h4>
+                    <address>
+                        <div>Head Office: Avenue fashion,<br>
+                            180-182 Regent Street, London.</div>
+                        <a href="tel:+0123456789">0123-456-789</a><br>
+                        <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a>
+                    </address>
+                </div>
+            </div>
+            <div class="footer-banners">
+                <div class="awards banner">
+                    <span class="bold">Award winner</span><br>
+                    Fashion awards 2016
+                </div>
+                <div class="social banner">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="lower-footer-section">
+            <div class="footer-credits">
+                <div>&copy; 2016 Avenue Fashion</div>
+                <div class="footer-creators">
+                    <div>Design by RobbyDesigns.com</div>
+                    <div>Dev by Petr Hank</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!--JavaScript-->
+    <script src="js/script.js"></script>
+</body>
+</html>

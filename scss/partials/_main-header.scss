@@ -1,0 +1,8 @@
+.main-header{
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, $site-max-width) 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 35rem;
+    background: $upper-nav-bg;
+    overflow: hidden;
+}

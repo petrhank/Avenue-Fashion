@@ -1,0 +1,27 @@
+@import "partials/_core.scss";
+@import "partials/_variables.scss";
+@import "partials/_mixins.scss";
+@import "partials/main-header";
+@import "partials/main-nav";
+@import "partials/dropdown";
+@import "partials/upper-nav";
+@import "partials/navbar";
+@import "partials/welcome";
+@import "partials/shop";
+@import "partials/shop-item";
+@import "partials/main";
+@import "partials/lookbooks";
+@import "partials/footer";
+@import "partials/main-footer-section";
+@import "partials/lower-footer-section";
+@import "partials/media1320";
+@import "partials/media1180";
+@import "partials/media880";
+@import "partials/media680";
+@import "partials/media480";
+@import "partials/media360";
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}

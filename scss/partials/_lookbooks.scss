@@ -1,0 +1,47 @@
+.lookbooks{
+    grid-area: 4 / 1 / 5 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lookbook{
+    display: flex;
+    background: $light-bg-color;
+    margin: 0 1rem;
+    color: $text-dark;
+    text-align: right;
+    padding-right: 2rem;
+    img{
+        height: 20rem;
+        align-self: flex-end;
+    }
+    p{
+        font-size: .7rem;
+    }
+    h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
+
+.lookbook-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid $text-dark;
+    padding: .5rem 1rem;
+    color: $text-dark;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: all 200ms ease;
+    margin-bottom: 1rem;
+    &:hover{
+        background-color: $aqua-color;
+        border-color: $aqua-color;
+        color: #f8f8f8;
+    }
+}
+

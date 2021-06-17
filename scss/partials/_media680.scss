@@ -1,0 +1,14 @@
+@media screen and (max-width: 680px) {
+    .welcome-button{
+        margin-right: 2rem;
+    }
+
+    .shop{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 2rem;
+    }
+
+    .lower-footer-section{
+        font-size: .6rem;
+    }
+}

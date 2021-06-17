@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 1 / 2 / -1;
+    z-index: 3;
+    font-size: .8rem;
+    max-width: $site-max-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar-toggle{
+    display: none;
+}
+
+.visible{
+    pointer-events: all;
+    opacity: 1;
+}
+
+.overflowed{
+    position: absolute;
+    right: 0;
+    left: unset;
+    margin-right: 0;
+}
+
+.bold{
+    font-weight: 700;
+}

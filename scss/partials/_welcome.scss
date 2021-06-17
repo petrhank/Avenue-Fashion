@@ -1,0 +1,51 @@
+.welcome-img{
+    background: url("../img/photo 7.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: $upper-nav-height;
+    grid-area: 1 / 1 / -1 / -1;
+    z-index: 0;
+}
+
+.welcome-logo{
+    grid-area: 2 / 2 / 3 / 3;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15rem;
+    line-height: 15rem;
+    font-weight: 600;
+    color: $text-dark;
+}
+
+.welcome-button{
+    grid-area: 3 / 2 / 4 / 3;
+    z-index: 1;
+    text-decoration: none;
+    border: 1px solid $text-dark;
+    justify-self: end;
+    margin: 0 3rem 3rem 0;
+    padding: .5rem 1rem;
+    color: $text-dark;
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: all 200ms ease;
+    &:hover{
+        background-color: $aqua-color;
+        border-color: $aqua-color;
+        color: #f8f8f8;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .welcome-img{
+        margin: 0;
+        background-position: right 60% top 0%;
+    }
+    .welcome-logo{
+        font-size: 10rem;
+    }
+}

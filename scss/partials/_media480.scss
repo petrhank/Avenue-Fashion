@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+    .shop{
+        grid-template-columns: 1fr;
+    }
+
+    .lookbook{
+        padding-right: 1rem;
+        img{
+            height: 15rem;
+        }
+    }
+
+    .lower-footer-section{
+        height: unset;
+        padding: 1rem 0;
+    }
+    .footer-credits{
+        flex-direction: column;
+    }
+    .footer-creators{
+        flex-direction: column;
+        div{
+            margin: 0;
+        }
+    }
+    .footer-categories, .footer-banners{
+        margin: 2rem;
+    }
+}

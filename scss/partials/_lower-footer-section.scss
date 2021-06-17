@@ -1,0 +1,25 @@
+.lower-footer-section{
+    grid-column: 1 / -1;
+    background: $upper-nav-bg;
+    color: $text-light;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: .7rem;
+}
+
+.footer-credits{
+    display: flex;
+    justify-content: space-between;
+    max-width: $site-max-width;
+    margin: 0 auto;
+    padding: 0 3rem;
+    width: 100%;
+}
+
+.footer-creators{
+    display: flex;
+    div{
+        margin-left: 2rem;
+    }
+}

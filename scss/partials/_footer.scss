@@ -1,0 +1,5 @@
+.main-footer{
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, $site-max-width) 1fr;
+    background: $light-bg-color;
+}

@@ -1,0 +1,13 @@
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr minmax(200px, $site-max-width) 1fr;
+    margin-bottom: 6rem;
+}
+
+.horizontal-line{
+    grid-column: 2 / 3;
+    border: none;
+    height: 1px;
+    background: darken($light-bg-color, 10%);
+    margin: 2rem 3rem;
+}
